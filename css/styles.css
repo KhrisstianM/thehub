@@ -1,0 +1,186 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 7% 3%;
+}
+
+span {
+    color: #8f8f8f;
+}
+
+/*****************************************************************************/
+/*Headings*/
+
+.heading-1 {
+    font-size: 3.5rem;
+
+}
+
+.heading-2 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.heading-3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+@media (max-width:1400px) {
+    .heading-3 {
+        font-size: 1rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/*****************************************************************************/
+/*Navigation Bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: #003366;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 1.2rem;
+}
+
+/*****************************************************************************/
+/*Title Section*/
+
+#title {
+    color: #fff;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#middle {
+    padding: 100px;
+    z-index: -1;
+}
+
+/*****************************************************************************/
+/*Button Hover*/
+
+.button1:hover span {
+    display: none
+}
+
+.button1:hover:before {
+    content: "Contact Sales Team"
+}
+
+
+/*****************************************************************************/
+/*Card Section*/
+
+#cards {
+    padding: 100px;
+    z-index: -1;
+}
+
+.hub-card {
+    padding: 3% 2%;
+    text-align: left;
+}
+
+.card-header {
+    background-color: #003366;
+    text-align: left;
+}
+
+.btn-dark {
+    background-color: #fff;
+    color: #003366;
+}
+
+.btn-dark:hover {
+    background-color: #003366;
+    color: #fff;
+}
+
+/*Call to Action*/
+#cta {
+    color: #fff;
+    padding: 1% 3%;
+}
+
+cta-h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*****************************************************************************/
+/*Footer Section*/
+
+#footer {
+    padding: 7%px 15%;
+    z-index: -1;
+}
+
+.social-icon {
+    color: #fff;
+    margin: 20px 10px;
+}
+
+.social-icon:hover {
+    color: #8f8f8f;
+
+}
+
+.copyright {
+    color: #fff;
+}
+
+/*****************************************************************************/
+/*Section Background*/
+.filled-section {
+    background: linear-gradient(90deg, #003366, #1fa2ff 60%, #fff 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 62%);
+
+}
+
+.filled-1-section {
+    background: linear-gradient(90deg, #003366, #1fa2ff 60%, #fff 100%);
+    color: #fff;
+}
+
+.clear-section {
+    background-color: #fff;
+}
