@@ -20,7 +20,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 7% 3%;
+    padding: 3% 0.7% 3%;
 }
 
 span {
@@ -52,6 +52,10 @@ span {
 
     #title {
         text-align: center;
+    }
+
+    .nav-link {
+        color: #fff;
     }
 }
 
