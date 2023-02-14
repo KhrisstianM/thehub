@@ -189,6 +189,8 @@ cta-h3 {
     background-color: #fff;
 }
 
+/* Support Section */
+
 #user-form {
     text-align: left;
 }
@@ -196,13 +198,37 @@ cta-h3 {
 .ticket {
     color: #003366;
     padding-bottom: 30px;
-    padding-top: 150px;
 }
-label{
+
+label {
     color: #8f8f8f;
     padding: 15px;
 }
-.form-control{
+
+.form-control {
     color: #8f8f8f;
-    font-size: 0.8rem;    
+    font-size: 0.8rem;
+}
+
+.form-section {
+    padding: 8% 30%;
+    z-index: 1;
+
+}
+
+/* Accordion Menu  */
+
+.accordion-body {
+    line-height: 1.5;
+    text-align: left;
+}
+
+.accordion-button {
+
+    color: #003366;
+}
+
+.accordion-ul {
+    color: #8f8f8f;
+
 }
