@@ -41,7 +41,7 @@ span {
 }
 
 .heading-3 {
-    color: #fff;
+    color: #0070b9;
     font-size: 1.5rem;
 }
 
@@ -76,7 +76,7 @@ span {
 }
 
 .nav-link {
-    color: #003366;
+    color: #0074bd;
     font-family: "Montserrat-Light", sans-serif;
     font-size: 1.2rem;
 }
@@ -93,7 +93,7 @@ span {
 }
 
 #middle {
-    padding: 100px;
+    padding: 100px 0;
     z-index: -1;
 }
 
@@ -123,17 +123,16 @@ span {
 }
 
 .card-header {
-    background-color: #003366;
     text-align: left;
 }
 
 .btn-dark {
     background-color: #fff;
-    color: #003366;
+    color: #0074bd;
 }
 
 .btn-dark:hover {
-    background-color: #003366;
+    background-color: #0070b9;
     color: #fff;
 }
 
@@ -176,7 +175,8 @@ cta-h3 {
 /*Section Background*/
 .filled-section {
     background: linear-gradient(90deg, #003366, #1fa2ff 60%, #fff 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 62%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 62%); */
+    clip-path: polygon(0 0, 100% 0, 100% 53%, 0 79%);
 
 }
 
@@ -187,4 +187,21 @@ cta-h3 {
 
 .clear-section {
     background-color: #fff;
+}
+
+#user-form {
+    text-align: left;
+}
+
+.ticket {
+    color: #003366;
+    padding-bottom: 30px;
+}
+label{
+    color: #8f8f8f;
+    padding: 15px;
+}
+.form-control{
+    color: #8f8f8f;
+    font-size: 0.8rem;    
 }
