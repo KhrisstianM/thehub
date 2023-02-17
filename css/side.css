@@ -1,0 +1,261 @@
+body {
+    font-family: "Ubuntu";
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #6c757d;
+    font-family: "Ubuntu";
+    margin: 0;
+    padding: 2.5rem 0;
+}
+
+h3,
+p,
+ul {
+    color: #6c757d;
+    font-family: "Ubuntu";
+}
+
+a {
+    color: #6c757d;
+    font-family: "Ubuntu";
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366;
+    text-decoration: none;
+}
+
+hr {
+    color: #003366;
+}
+
+
+/* BODY, HEADERS & FOOTERS */
+
+#header {
+    background: linear-gradient(90deg, #003366, #1fa2ff 60%, #fff 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 53%, 0 79%); */
+    clip-path: polygon(0 0, 100% 0%, 100% 72%, 0 100%);
+    padding: 2% 0.7% 3%;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#body {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 9.5rem auto 1.25rem auto;
+    width: 100%;
+}
+
+#middle {
+    padding: 100px 0;
+    z-index: -1;
+}
+
+/* #footer {
+    height: 800px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #ccc;
+} */
+
+
+/* SIDEBAR */
+
+#sidebarWrap {
+    position: sticky;
+    top: 12.5rem;
+    height: auto;
+    min-width: 13.125rem;
+    max-width: 13.125rem;
+    box-shadow: none;
+    border: none;
+    margin: 1rem;
+    padding: 3rem 0;
+    order: 1;
+}
+
+#content {
+    height: 50rem;
+    margin: 4rem;
+    width: 100%;
+
+}
+
+.d-flex {
+    padding-bottom: 1.5rem !important;
+}
+
+.accordion-button {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* HEADER NAVBAR */
+
+.navbar-item .nav-link {
+    color: #0074bd;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    padding: 0 1rem !important;
+}
+
+@media (max-width:991px) {
+    .navbar-item .nav-link {
+        color: #fff;
+        /* padding: 0 2rem!important; */
+    }
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,51,102, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #003366;
+    border-width: 0.2rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #0074bd;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/* Support Section */
+
+#user-form {
+    text-align: left;
+}
+
+.ticket {
+    color: #003366;
+    padding-bottom: 30px;
+}
+
+label {
+    color: #8f8f8f;
+    padding: 15px;
+}
+
+.form-control {
+    color: #8f8f8f;
+    font-size: 0.8rem;
+}
+
+.form-section {
+    padding: 10% 30%;
+    z-index: -1;
+}
+
+@media (max-width:991px) {
+    .form-section {
+        padding: 15% 30%;
+    }
+}
+
+.form-group {
+    padding: 10px;
+}
+
+
+/*Footer Section*/
+
+#footer {
+    padding: 1% 3%;
+    background: linear-gradient(90deg, #003366, #1fa2ff 60%, #fff 100%);
+    color: #fff;
+    position: sticky;
+    text-align: center;
+    z-index: -1;
+}
+
+.social-icon {
+    color: #fff;
+    margin: 20px 10px;
+}
+
+.social-icon:hover {
+    color: #8f8f8f;
+
+}
+
+.copyright {
+    color: #fff;
+}
+
+/* BUTTONS */
+
+.button1 {
+    color: #8f8f8f !important;
+}
+
+.button1:hover span {
+    color: #fff !important;
+    display: none
+}
+
+.button1:hover:before {
+    color: #fff !important;
+    content: "Contact Sales Team"
+}
+
+
+/*CARDS*/
+
+#cards {
+    padding: 100px;
+    z-index: -1;
+}
+
+.hub-card {
+    padding: 3% 2%;
+    text-align: left;
+}
+
+.card-header {
+    text-align: left;
+}
+
+.btn-dark {
+    background-color: #fff;
+    color: #0074bd;
+}
+
+.btn-dark:hover {
+    background-color: #0070b9;
+    color: #fff;
+}
+
+/*Call to Action*/
+#cta {
+    color: #fff;
+    padding: 1% 3%;
+}
+
+cta-h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}

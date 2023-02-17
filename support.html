@@ -13,7 +13,7 @@
         crossorigin="anonymous"></script>
 
     <!--Stylesheets-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/side.css">
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,33 +28,28 @@
 
 <body>
 
-    <section class="filled-section" id="title">
+    <div id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="support.html">Support</a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Nav Bar -->
-        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="">Sign Out</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="index.html">Support</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
-                    <ul class="navbar-nav ms-auto">
-                        <li class="navbar-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="navbar-item">
-                            <a class="nav-link" href="">Sign Out</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-
-    </section>
 
 
     <!-- Form -->
@@ -82,12 +77,16 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect2">Select Criteria</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
-                                <option>1. Password Reset</option>
-                                <option>2. Configuration Change</option>
-                                <option>3. .......</option>
-                                <option>4. Other</option>
+                            <label for="exampleFormControlSelect1">Support Type</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Password reset</option>
+                                <option>Configuration change</option>
+                                <option>New user</option>
+                                <option>Order new MFA token</option>
+                                <option>Payment file rejections</option>
+                                <option>...</option>
+                                <option>...</option>
+                                <option>...</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -99,11 +98,12 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <div class="custom-file">
-                            <label class="custom-file-label" for="customFile">Choose file (optional)</label>
                             <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile">(optional)</label>
                         </div>
                         <div>
                             <button type="submit" class="btn btn-primary my-1">Create</button>
+
                         </div>
                     </form>
 
@@ -113,9 +113,9 @@
     </section>
 
 
-    <!-- Call to Action -->
+    <!-- Footer -->
 
-    <section class="filled-1-section" id="cta">
+    <footer class="clear-section" id="footer">
 
         <div class="row">
             <div class="col-lg-12">
@@ -125,13 +125,6 @@
                 <p class="copyright">© 2023 Copyright The Hub</p>
             </div>
         </div>
-
-    </section>
-
-
-    <!-- Footer -->
-
-    <footer class="clear-section" id="footer">
 
 
     </footer>
